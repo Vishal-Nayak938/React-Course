@@ -1,15 +1,16 @@
-function Row2()
+import TodoItem from "./todoItem";
+
+function Row2({todoI})
 {
-    return <div class="row">
-    <div class="col-4">
-    Buy Milk
-    </div>
-    <div class="col-4">
-      09/09/2024
-    </div>
-    <div class="col-2">
-    <button type="button" class="btn btn-dark">Delete</button>
-   </div>
-  </div>
+
+  
+    return <>
+    {todoI.map(items => <TodoItem todoName={items.name} todoDate={items.date} ></TodoItem>)}
+    
+    </>
+    
+   
+  
 }
+
 export default Row2;

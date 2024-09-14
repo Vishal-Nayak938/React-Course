@@ -1,0 +1,9 @@
+.Props{
+    text-transform: capitalize;
+    text-align: center;
+    color:red;
+    font-size: 40px;
+    display: inline-block;
+    margin:10px;
+   
+}
