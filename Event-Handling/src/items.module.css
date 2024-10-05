@@ -1,0 +1,14 @@
+.list{
+
+height: 50px;
+width: 300px;
+background-color: blueviolet;
+display: flex;
+font-size: 25px;
+}
+
+.button{
+
+float:right;
+
+}

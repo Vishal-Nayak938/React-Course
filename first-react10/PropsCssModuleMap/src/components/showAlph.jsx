@@ -2,9 +2,10 @@
 import Styles from './show.module.css'
 
 let Show = ({ListA}) =>{
-    return <>
-    {ListA.map(item => <ul><li className={Styles.Alpha}   >{item}</li></ul>)}
-    {/* //mapMetod */}
+    return <> <ul>
+    {ListA.map(item =>
+        <li className={Styles.Alpha}   >{item}</li>)}
+  </ul>
     </>
 }
 export default  Show;
